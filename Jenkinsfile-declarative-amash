@@ -42,6 +42,7 @@ pipeline{
       }       
     }
   }
+/*
   post{
     failure{
          emailext body: '''Hi Team,
@@ -62,5 +63,6 @@ Landmark Technologies''', recipientProviders: [developers(), contributor()], sub
 
     }
   }
+*/
   
 }
